@@ -23,3 +23,19 @@
     }
   }
 }
+
+@mixin reset_list() {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+@mixin button($bg-color:$black, $color:white){
+  text-decoration-line: none;
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: $bg-color;
+  border-radius: 28px;
+  color: $color;
+  font-weight: bold;
+}
