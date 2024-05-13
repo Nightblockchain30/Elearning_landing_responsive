@@ -4,3 +4,14 @@
   box-sizing: border-box;
 }
 
+html * {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}/*# sourceMappingURL=style.css.map */

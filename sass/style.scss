@@ -6,3 +6,7 @@
 @import "./pages/pages";
 @import "./themes/themes";
 @import "settings";
+
+p {
+    font-family: $primary-font;
+}

@@ -3,4 +3,22 @@ $bp-tablet-horizontal: 1024px;
 $bp-desktop: 1200px;
 $bp-desktop-xl: 1440px;
 
-$roboto-font: "Roboto", sans-serif;
+
+// Colores
+$blue:#666CA3;
+$dark_blue:#13183F;
+$grey:#83869A;
+$pink:#F74780;
+$light_pink:#FFA7C3;
+
+// Degradados
+$orange:#FF6F48;
+$magenta:#F02AA6;
+$gradient-blue:#4851ff;
+$gradient-pink-orange: linear-gradient(180deg, $orange 0.04%, $magenta 100%);
+$gradient-pink-blue: linear-gradient(180deg, $gradient-blue 0%, $magenta 99.92%);
+
+
+
+// Tipografía
+$primary-font:"Plus Jakarta Sans", sans-serif;
