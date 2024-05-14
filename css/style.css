@@ -34,25 +34,26 @@ header.header__principal .header__list {
   margin-bottom: 38px;
 }
 
-.main__principal {
+.main {
   padding-left: 16px;
   padding-right: 16px;
 }
-.main__principal .main__container {
+.main .main__container__hero {
   height: 100px;
+  margin-bottom: 250px;
 }
-.main__principal .main__container .main__h1 {
+.main .main__container__hero .main__h1 {
   font-size: 40px;
   margin-bottom: 26px;
   font-weight: 900;
 }
-.main__principal .main__container .main__p {
+.main .main__container__hero .main__p {
   padding: 0px;
   color: #83869A;
   line-height: 26px;
   margin-bottom: 24px;
 }
-.main__principal .main__container .main__p2 .main__p2--button {
+.main .main__container__hero .main__p2 .main__p2-button {
   margin-bottom: 40px;
   text-decoration-line: none;
   display: inline-block;
@@ -64,24 +65,11 @@ header.header__principal .header__list {
   background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
   background-color: none;
 }
-.main__principal .main__container__img {
+.main .main__container__img {
   text-align: center;
 }
-.main__principal .main__container__img img {
+.main .main__container__img .img-hero {
   max-width: 80%;
-}
-.main__principal .main__container__img__number1 {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  max-width: 155px;
-  max-height: 100px;
-}
-.main__principal .main__container__img__number2 {
-  display: flex;
-  flex-direction: column;
-  max-width: 105px;
-  max-height: 100px;
 }
 
 html * {
