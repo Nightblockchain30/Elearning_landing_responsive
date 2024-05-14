@@ -26,19 +26,30 @@
     }
         &__img{
             text-align: center;
+            position: relative;
+            height: 300px;
             .img-hero{
                 max-width: 80%;
             }
             .nums__hero{
-                display: flex;
-                flex-direction: column;
-            }
+                display: inline-block;
+                text-align: left;
+                background-color: white;
+                border-radius: 10px;
+                position: absolute;
+                box-shadow: -2px 22px 44px 7px rgba(189,174,174,0.75);
+                -webkit-box-shadow: -2px 22px 44px 7px rgba(189,174,174,0.75);
+                -moz-box-shadow: -2px 22px 44px 7px rgba(189,174,174,0.75);
+                            }
 
             // Estilos para los divs del hero
             .num__hero-1{
                 border: 1px solid white;
-                max-width: 100px;
+                max-width: 155px;
                 max-height: 100px;
+                padding: 16px 45px 16px 20px;
+                bottom: 0px;
+                left: 0px;
             }
             .num__hero-1-title{
                 font-size: 14px;
@@ -51,8 +62,11 @@
             
             .num__hero-2{
                 border: 1px solid white;
-                max-width: 155px;
+                max-width: 105px;
                 max-height: 100px;
+                padding: 16px 20px;
+                top: 0px;
+                right: 0px;
             }
             .num__hero-2-title{
             font-size: 14px;
