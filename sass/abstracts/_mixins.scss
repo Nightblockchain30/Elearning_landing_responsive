@@ -39,3 +39,9 @@
   color: $color;
   font-weight: bold;
 }
+
+@mixin button-pink-orange(){
+  @include button(none,white);
+  background-image: $gradient-pink-orange;
+  background-color: none;
+}

@@ -16,7 +16,6 @@
 
 header.header__principal {
   padding-top: 16px;
-  padding-bottom: 45px;
 }
 header.header__principal .header__container {
   display: flex;
@@ -32,6 +31,57 @@ header.header__principal .header__list {
 .header__container {
   padding-left: 16px;
   padding-right: 16px;
+  margin-bottom: 38px;
+}
+
+.main__principal {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.main__principal .main__container {
+  height: 100px;
+}
+.main__principal .main__container .main__h1 {
+  font-size: 40px;
+  margin-bottom: 26px;
+  font-weight: 900;
+}
+.main__principal .main__container .main__p {
+  padding: 0px;
+  color: #83869A;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.main__principal .main__container .main__p2 .main__p2--button {
+  margin-bottom: 40px;
+  text-decoration-line: none;
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: none;
+  border-radius: 28px;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  background-color: none;
+}
+.main__principal .main__container__img {
+  text-align: center;
+}
+.main__principal .main__container__img img {
+  max-width: 80%;
+}
+.main__principal .main__container__img__number1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  max-width: 155px;
+  max-height: 100px;
+}
+.main__principal .main__container__img__number2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 105px;
+  max-height: 100px;
 }
 
 html * {
