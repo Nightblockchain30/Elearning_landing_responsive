@@ -29,6 +29,39 @@
             .img-hero{
                 max-width: 80%;
             }
+            .nums__hero{
+                display: flex;
+                flex-direction: column;
+            }
+
+            // Estilos para los divs del hero
+            .num__hero-1{
+                border: 1px solid white;
+                max-width: 100px;
+                max-height: 100px;
+            }
+            .num__hero-1-title{
+                font-size: 14px;
+                color:$grey;
+            }
+            .num__hero-1-number{
+                font-size: 32px;
+                font-weight: 700;
+            }
+            
+            .num__hero-2{
+                border: 1px solid white;
+                max-width: 155px;
+                max-height: 100px;
+            }
+            .num__hero-2-title{
+            font-size: 14px;
+            color:$grey;
+            }
+            .num__hero-2-number{
+            font-size: 32px;
+            font-weight: 700;
+            }
         }
     }
 }

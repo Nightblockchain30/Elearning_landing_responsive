@@ -71,6 +71,36 @@ header.header__principal .header__list {
 .main .main__container__img .img-hero {
   max-width: 80%;
 }
+.main .main__container__img .nums__hero {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__container__img .num__hero-1 {
+  border: 1px solid white;
+  max-width: 100px;
+  max-height: 100px;
+}
+.main .main__container__img .num__hero-1-title {
+  font-size: 14px;
+  color: #83869A;
+}
+.main .main__container__img .num__hero-1-number {
+  font-size: 32px;
+  font-weight: 700;
+}
+.main .main__container__img .num__hero-2 {
+  border: 1px solid white;
+  max-width: 155px;
+  max-height: 100px;
+}
+.main .main__container__img .num__hero-2-title {
+  font-size: 14px;
+  color: #83869A;
+}
+.main .main__container__img .num__hero-2-number {
+  font-size: 32px;
+  font-weight: 700;
+}
 
 html * {
   font-family: "Plus Jakarta Sans", sans-serif;
