@@ -28,6 +28,7 @@
             text-align: center;
             position: relative;
             height: 300px;
+            margin-bottom: 66px;
             .img-hero{
                 max-width: 80%;
             }
@@ -75,6 +76,39 @@
             .num__hero-2-number{
             font-size: 32px;
             font-weight: 700;
+            }
+        }
+        &__activities{
+            .activities__h2{
+                margin-bottom: 16px;
+                color:white ;
+                background-image: $gradient-pink-orange;
+                padding: 24px 29px 32px 28px;
+                border-radius: 10px;
+            }
+            // Estilos para todos los articulos
+            .activities-item{
+                margin-bottom: 16px;
+                width: 340px;
+                height: 240px;
+                text-align: left;
+                margin-left: 44px;
+                padding-right: 45px;
+                &-icon{
+                    margin-bottom: 24px;
+                }
+                &-title{
+                    margin-bottom: 16px;
+                }
+                &-description{
+                    margin-bottom: 24px;
+                }
+                .activities-item-cta{
+                    .cta-button{
+                        color: $pink;
+                        text-decoration: none;
+                    }
+                }
             }
         }
     }

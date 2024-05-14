@@ -69,6 +69,7 @@ header.header__principal .header__list {
   text-align: center;
   position: relative;
   height: 300px;
+  margin-bottom: 66px;
 }
 .main .main__container__img .img-hero {
   max-width: 80%;
@@ -114,6 +115,34 @@ header.header__principal .header__list {
 .main .main__container__img .num__hero-2-number {
   font-size: 32px;
   font-weight: 700;
+}
+.main .main__container__activities .activities__h2 {
+  margin-bottom: 16px;
+  color: white;
+  background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  padding: 24px 29px 32px 28px;
+  border-radius: 10px;
+}
+.main .main__container__activities .activities-item {
+  margin-bottom: 16px;
+  width: 340px;
+  height: 240px;
+  text-align: left;
+  margin-left: 44px;
+  padding-right: 45px;
+}
+.main .main__container__activities .activities-item-icon {
+  margin-bottom: 24px;
+}
+.main .main__container__activities .activities-item-title {
+  margin-bottom: 16px;
+}
+.main .main__container__activities .activities-item-description {
+  margin-bottom: 24px;
+}
+.main .main__container__activities .activities-item .activities-item-cta .cta-button {
+  color: #F74780;
+  text-decoration: none;
 }
 
 html * {
