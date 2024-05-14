@@ -80,24 +80,33 @@
             }
         }
         &__activities{
-            .activities__h2{
-                margin-bottom: 16px;
-                color:white ;
-                background-image: $gradient-pink-orange;
-                padding: 24px 29px 32px 28px;
-                border-radius: 10px;
+            .activities__header{
+                .activities__h2{
+                    margin-bottom: 16px;
+                    color:white ;
+                    background-image: $gradient-pink-orange;
+                    padding: 24px 29px 32px 28px;
+                    border-radius: 10px;
+                }
             }
             // Estilos para todos los articulos
             .activities-item{
-                margin-bottom: 16px;
+                margin-bottom: 48px;
                 width: 340px;
                 height: 240px;
                 text-align: left;
-                margin-left: 44px;
-                padding-right: 45px;
+                padding: 56px 29px 24px 28px;
                 background-color: white;
                 &-icon{
                     margin-bottom: 24px;
+                    width: 56px;
+                    height: 56px;
+                    padding: 1rem 2rem;
+                    border-radius: 50%;
+                    background: $gradient-pink-orange;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
                 &-title{
                     margin-bottom: 16px;
