@@ -1,6 +1,7 @@
 .main{
     padding-left: 16px;
     padding-right: 16px;
+    background: linear-gradient(180deg, #fff 0%,#f0f1ff 100%);
     .main__container{
         &__hero{
         height: 100px;
@@ -94,6 +95,7 @@
                 text-align: left;
                 margin-left: 44px;
                 padding-right: 45px;
+                background-color: white;
                 &-icon{
                     margin-bottom: 24px;
                 }
@@ -102,6 +104,7 @@
                 }
                 &-description{
                     margin-bottom: 24px;
+                    line-height: 26px;
                 }
                 .activities-item-cta{
                     .cta-button{
