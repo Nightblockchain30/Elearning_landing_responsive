@@ -14,9 +14,6 @@
   font-weight: bold;
 }
 
-.footer {
-  margin-top: 80px;
-}
 .footer .container {
   display: flex;
   justify-content: space-between;
@@ -52,6 +49,7 @@ header.header__principal .header__list {
 .main {
   padding-left: 16px;
   padding-right: 16px;
+  padding-bottom: 80px;
   background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
 }
 .main .main__container__hero {
@@ -141,11 +139,14 @@ header.header__principal .header__list {
 }
 .main .main__container__activities .activities-item {
   margin-bottom: 16px;
+  margin-top: 40px;
   width: 380px;
-  height: 260px;
+  height: 240px;
   text-align: left;
   padding: 0px 29px 0px 28px;
   background-color: white;
+  border-radius: 10px;
+  position: relative;
 }
 .main .main__container__activities .activities-item-icon {
   margin-bottom: 24px;
@@ -158,6 +159,13 @@ header.header__principal .header__list {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 30px;
+  top: -40px;
+}
+.main .main__container__activities .activities-item .item__position {
+  position: absolute;
+  top: 50px;
 }
 .main .main__container__activities .activities-item-title {
   margin-bottom: 16px;
@@ -171,6 +179,9 @@ header.header__principal .header__list {
 .main .main__container__activities .activities-item .activities-item-cta .cta-button {
   color: #F74780;
   text-decoration: none;
+}
+.main .main__container__activities .activities-item .item5 {
+  margin-bottom: 100px;
 }
 
 .container {

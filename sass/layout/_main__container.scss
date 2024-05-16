@@ -1,6 +1,7 @@
 .main{
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 80px;
     background: linear-gradient(180deg, #fff 0%,#f0f1ff 100%);
     .main__container{
         &__hero{
@@ -92,11 +93,18 @@
             // Estilos para todos los articulos
             .activities-item{
                 margin-bottom: 16px;
+                margin-top: 40px;
                 width: 380px;
-                height: 260px;
+                height: 240px;
                 text-align: left;
                 padding: 0px 29px 0px 28px;
                 background-color: white;
+                border-radius: 10px;
+
+                position: relative;
+
+
+
                 &-icon{
                     margin-bottom: 24px;
                     margin-top: 16px;
@@ -108,7 +116,15 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    position: absolute;
+                    left: 30px;
+                    top: -40px;
                 }
+                .item__position{
+                    position: absolute;
+                    top: 50px;
+                }
+
                 &-title{
                     margin-bottom: 16px;
                     font-size: 20px;
@@ -123,6 +139,9 @@
                         color: $pink;
                         text-decoration: none;
                     }
+                }
+                .item5{
+                    margin-bottom: 100px;
                 }
             }
         }
