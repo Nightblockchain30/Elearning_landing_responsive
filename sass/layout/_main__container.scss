@@ -25,12 +25,26 @@
                 @include button-pink-orange;
             }
         }
-    }
+        }
         &__img{
             text-align: center;
             position: relative;
             height: 300px;
-            margin-bottom: 66px;
+            .img__hero-tablet{
+                display: none;
+                @include breakpoint(tablet){
+                    display: block;
+                }
+            }
+
+            .img__hero-mobile{
+                @include breakpoint(tablet){
+                    display: none;
+                }
+            }
+
+            
+
             .img-hero{
                 max-width: 80%;
             }
@@ -80,7 +94,15 @@
             font-weight: 700;
             }
         }
+        .container__responsive{
+            margin-bottom: 200px;
+            @include breakpoint(tablet){
+            display: flex;
+            }
+        }
+
         &__activities{
+            margin-top: 20%;
             .activities__header{
                 .activities__h2{
                     margin-bottom: 16px;

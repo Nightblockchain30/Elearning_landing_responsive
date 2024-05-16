@@ -96,7 +96,19 @@ header.header__principal .header__list {
   text-align: center;
   position: relative;
   height: 300px;
-  margin-bottom: 66px;
+}
+.main .main__container__img .img__hero-tablet {
+  display: none;
+}
+@media (min-width: 768px) {
+  .main .main__container__img .img__hero-tablet {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .main .main__container__img .img__hero-mobile {
+    display: none;
+  }
 }
 .main .main__container__img .img-hero {
   max-width: 80%;
@@ -142,6 +154,17 @@ header.header__principal .header__list {
 .main .main__container__img .num__hero-2-number {
   font-size: 32px;
   font-weight: 700;
+}
+.main .main__container .container__responsive {
+  margin-bottom: 200px;
+}
+@media (min-width: 768px) {
+  .main .main__container .container__responsive {
+    display: flex;
+  }
+}
+.main .main__container__activities {
+  margin-top: 20%;
 }
 .main .main__container__activities .activities__header .activities__h2 {
   margin-bottom: 16px;
