@@ -2,12 +2,17 @@
     .container{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         background-color: $black;
         height: 120px;
         width: 100%;
         z-index: -1;
         .footer__img{
-            z-index: 2;
+            display: inline-block;
+            font-size: 20px;
+        }
+        .header__button{
+            @include button-pink-blue;
         }
     }
 }

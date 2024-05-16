@@ -45,3 +45,9 @@
   background-image: $gradient-pink-orange;
   background-color: none;
 }
+
+@mixin button-pink-blue(){
+  @include button(none,white);
+  background-image: $gradient-pink-blue;
+  background-color: none;
+}
