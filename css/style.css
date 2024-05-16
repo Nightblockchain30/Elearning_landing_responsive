@@ -140,15 +140,16 @@ header.header__principal .header__list {
   border-radius: 10px;
 }
 .main .main__container__activities .activities-item {
-  margin-bottom: 48px;
-  width: 340px;
-  height: 240px;
+  margin-bottom: 16px;
+  width: 380px;
+  height: 260px;
   text-align: left;
-  padding: 56px 29px 24px 28px;
+  padding: 0px 29px 0px 28px;
   background-color: white;
 }
 .main .main__container__activities .activities-item-icon {
   margin-bottom: 24px;
+  margin-top: 16px;
   width: 56px;
   height: 56px;
   padding: 1rem 2rem;
@@ -160,10 +161,12 @@ header.header__principal .header__list {
 }
 .main .main__container__activities .activities-item-title {
   margin-bottom: 16px;
+  font-size: 20px;
 }
 .main .main__container__activities .activities-item-description {
   margin-bottom: 24px;
   line-height: 26px;
+  color: #83869A;
 }
 .main .main__container__activities .activities-item .activities-item-cta .cta-button {
   color: #F74780;
