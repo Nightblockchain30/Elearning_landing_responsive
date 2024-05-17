@@ -69,6 +69,11 @@ header.header__principal .header__list {
   height: 100px;
   margin-bottom: 250px;
 }
+@media (min-width: 768px) {
+  .main .main__container__hero {
+    max-width: 60%;
+  }
+}
 .main .main__container__hero .main__h1 {
   font-size: 40px;
   margin-bottom: 26px;
@@ -103,6 +108,8 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__img .img__hero-tablet {
     display: block;
+    max-width: 40%;
+    margin: 0;
   }
 }
 @media (min-width: 768px) {

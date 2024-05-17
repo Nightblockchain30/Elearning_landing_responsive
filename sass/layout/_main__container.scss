@@ -7,6 +7,10 @@
         &__hero{
         height: 100px;
         margin-bottom: 250px;
+        @include breakpoint(tablet){
+            max-width: 60%;
+        }
+
         .main__h1{
             font-size: 40px;
             margin-bottom: 26px;
@@ -34,6 +38,8 @@
                 display: none;
                 @include breakpoint(tablet){
                     display: block;
+                    max-width: 40%;
+                    margin: 0;
                 }
             }
 
