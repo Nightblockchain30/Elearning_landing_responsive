@@ -9,6 +9,8 @@
         margin-bottom: 250px;
         @include breakpoint(tablet){
             max-width: 60%;
+            height: 300px;
+            margin-bottom: 0;
         }
 
         .main__h1{
@@ -34,11 +36,14 @@
             text-align: center;
             position: relative;
             height: 300px;
-            .img__hero-tablet{
+            @include breakpoint(tablet){
+                margin: 0;
+            }
+            img.img__hero-tablet{
                 display: none;
                 @include breakpoint(tablet){
                     display: block;
-                    max-width: 40%;
+                    max-width: 100%;
                     margin: 0;
                 }
             }
@@ -101,14 +106,19 @@
             }
         }
         .container__responsive{
-            margin-bottom: 200px;
+            margin-bottom: 0px;
             @include breakpoint(tablet){
             display: flex;
+            height: 400px;
             }
         }
 
         &__activities{
             margin-top: 20%;
+            @include breakpoint(tablet){
+                margin-top: 90px;
+            }
+
             .activities__header{
                 .activities__h2{
                     margin-bottom: 16px;

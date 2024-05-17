@@ -72,6 +72,8 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__hero {
     max-width: 60%;
+    height: 300px;
+    margin-bottom: 0;
   }
 }
 .main .main__container__hero .main__h1 {
@@ -102,13 +104,18 @@ header.header__principal .header__list {
   position: relative;
   height: 300px;
 }
-.main .main__container__img .img__hero-tablet {
+@media (min-width: 768px) {
+  .main .main__container__img {
+    margin: 0;
+  }
+}
+.main .main__container__img img.img__hero-tablet {
   display: none;
 }
 @media (min-width: 768px) {
-  .main .main__container__img .img__hero-tablet {
+  .main .main__container__img img.img__hero-tablet {
     display: block;
-    max-width: 40%;
+    max-width: 100%;
     margin: 0;
   }
 }
@@ -163,15 +170,21 @@ header.header__principal .header__list {
   font-weight: 700;
 }
 .main .main__container .container__responsive {
-  margin-bottom: 200px;
+  margin-bottom: 0px;
 }
 @media (min-width: 768px) {
   .main .main__container .container__responsive {
     display: flex;
+    height: 400px;
   }
 }
 .main .main__container__activities {
   margin-top: 20%;
+}
+@media (min-width: 768px) {
+  .main .main__container__activities {
+    margin-top: 90px;
+  }
 }
 .main .main__container__activities .activities__header .activities__h2 {
   margin-bottom: 16px;
