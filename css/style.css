@@ -159,7 +159,7 @@ header.header__principal .header__list {
 }
 @media (min-width: 768px) {
   .main .main__container__img .num__hero-1 {
-    bottom: 10%;
+    bottom: 5%;
     left: 0px;
     padding: 13px 42px 13px 17px;
   }
@@ -193,7 +193,7 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__img .num__hero-2 {
     top: 20%;
-    right: 16%;
+    right: 10%;
     padding: 13px 17px;
   }
 }

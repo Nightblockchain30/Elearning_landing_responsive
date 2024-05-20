@@ -79,7 +79,7 @@
                 bottom: 5%;
                 left: 0%;
                 @include breakpoint(tablet){
-                    bottom: 10%;
+                    bottom: 5%;
                     left: 0px;
                     padding: 13px 42px 13px 17px;
                 }
@@ -108,7 +108,7 @@
                 right: 5%;
                 @include breakpoint(tablet){
                     top: 20%;
-                    right: 16%;
+                    right: 10%;
                     padding: 13px 17px;
 
                 }
