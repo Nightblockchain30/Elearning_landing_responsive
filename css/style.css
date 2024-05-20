@@ -71,7 +71,6 @@ header.header__principal .header__list {
 }
 @media (min-width: 768px) {
   .main .main__container__hero {
-    max-width: 60%;
     height: 300px;
     margin-bottom: 0;
   }
@@ -102,11 +101,11 @@ header.header__principal .header__list {
 .main .main__container__img {
   text-align: center;
   position: relative;
-  height: 300px;
 }
 @media (min-width: 768px) {
   .main .main__container__img {
     margin: 0;
+    max-width: 40%;
   }
 }
 .main .main__container__img img.img__hero-tablet {
@@ -176,6 +175,7 @@ header.header__principal .header__list {
   .main .main__container .container__responsive {
     display: flex;
     height: 400px;
+    align-items: center;
   }
 }
 .main .main__container__activities {

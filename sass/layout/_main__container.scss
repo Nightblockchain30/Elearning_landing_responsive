@@ -8,7 +8,7 @@
         height: 100px;
         margin-bottom: 250px;
         @include breakpoint(tablet){
-            max-width: 60%;
+            // max-width: 60%;
             height: 300px;
             margin-bottom: 0;
         }
@@ -35,9 +35,9 @@
         &__img{
             text-align: center;
             position: relative;
-            height: 300px;
             @include breakpoint(tablet){
                 margin: 0;
+                max-width: 40%;
             }
             img.img__hero-tablet{
                 display: none;
@@ -110,6 +110,7 @@
             @include breakpoint(tablet){
             display: flex;
             height: 400px;
+            align-items: center;
             }
         }
 
