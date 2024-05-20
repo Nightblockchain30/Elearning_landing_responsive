@@ -154,35 +154,47 @@ header.header__principal .header__list {
   max-width: 155px;
   max-height: 100px;
   padding: 16px 45px 16px 20px;
-  bottom: 0px;
-  left: 0px;
+  bottom: 5%;
+  left: 0%;
 }
 @media (min-width: 768px) {
   .main .main__container__img .num__hero-1 {
     bottom: 10%;
     left: 0px;
+    padding: 13px 42px 13px 17px;
   }
 }
 .main .main__container__img .num__hero-1-title {
   font-size: 14px;
   color: #83869A;
 }
+@media (min-width: 768px) {
+  .main .main__container__img .num__hero-1-title {
+    font-size: 12px;
+  }
+}
 .main .main__container__img .num__hero-1-number {
   font-size: 32px;
   font-weight: 700;
+}
+@media (min-width: 768px) {
+  .main .main__container__img .num__hero-1-number {
+    font-size: 28px;
+  }
 }
 .main .main__container__img .num__hero-2 {
   border: 1px solid white;
   max-width: 105px;
   max-height: 100px;
   padding: 16px 20px;
-  top: 0px;
-  right: 0px;
+  top: 0%;
+  right: 5%;
 }
 @media (min-width: 768px) {
   .main .main__container__img .num__hero-2 {
-    top: 140px;
-    right: 15%;
+    top: 20%;
+    right: 16%;
+    padding: 13px 17px;
   }
 }
 .main .main__container__img .num__hero-2-title {
@@ -242,7 +254,6 @@ header.header__principal .header__list {
 .main .main__container__activities .activities-item {
   margin-bottom: 16px;
   margin-top: 40px;
-  width: 380px;
   height: 240px;
   text-align: left;
   padding: 0px 29px 0px 28px;
@@ -253,6 +264,11 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__activities .activities-item {
     width: none;
+  }
+}
+@media (min-width: 768px) {
+  .main .main__container__activities .activities-item .item-1 {
+    margin-top: 0px;
   }
 }
 .main .main__container__activities .activities-item-icon {
