@@ -8,4 +8,8 @@ header.header__principal{
     .header__list{
         @include reset_list;
     }
+    @include breakpoint(tablet){
+        padding-right: 40px;
+        padding-left: 39px;
+    }
 }

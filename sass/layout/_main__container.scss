@@ -8,7 +8,7 @@
         height: 100px;
         margin-bottom: 250px;
         @include breakpoint(tablet){
-            // max-width: 60%;
+            width: 60%;
             height: 300px;
             margin-bottom: 0;
         }
@@ -37,7 +37,7 @@
             position: relative;
             @include breakpoint(tablet){
                 margin: 0;
-                max-width: 40%;
+                width: 40%;
             }
             img.img__hero-tablet{
                 display: none;
@@ -78,6 +78,10 @@
                 padding: 16px 45px 16px 20px;
                 bottom: 0px;
                 left: 0px;
+                @include breakpoint(tablet){
+                    bottom: 10%;
+                    left: 0px;
+                }
             }
             .num__hero-1-title{
                 font-size: 14px;
@@ -95,6 +99,10 @@
                 padding: 16px 20px;
                 top: 0px;
                 right: 0px;
+                @include breakpoint(tablet){
+                    top: 140px;
+                    right: 15%;
+                }
             }
             .num__hero-2-title{
             font-size: 14px;
@@ -105,12 +113,13 @@
             font-weight: 700;
             }
         }
-        .container__responsive{
+        .container__responsive-flex{
             margin-bottom: 0px;
             @include breakpoint(tablet){
             display: flex;
             height: 400px;
             align-items: center;
+            margin-left: 39px;
             }
         }
 
@@ -118,15 +127,32 @@
             margin-top: 20%;
             @include breakpoint(tablet){
                 margin-top: 90px;
+                margin-left: 39px;
+                margin-right: 40px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 1fr 1fr 1fr;
+                column-gap:10px;
+                row-gap: 32px;
+                align-items: center;
+                justify-content: left;
+
             }
 
             .activities__header{
+                @include breakpoint(tablet){
+                    padding-top: 25px;
+                }
                 .activities__h2{
                     margin-bottom: 16px;
                     color:white ;
                     background-image: $gradient-pink-orange;
                     padding: 24px 29px 32px 28px;
                     border-radius: 10px;
+                    @include breakpoint(tablet){
+                        height: 259px;
+                        padding: 56px 21px 139px 32px;
+                    }
                 }
             }
             // Estilos para todos los articulos
@@ -139,8 +165,10 @@
                 padding: 0px 29px 0px 28px;
                 background-color: white;
                 border-radius: 10px;
-
                 position: relative;
+                @include breakpoint(tablet){
+                    width: none;
+                }
 
 
 
@@ -173,10 +201,11 @@
                     line-height: 26px;
                     color: $grey;
                 }
-                .activities-item-cta{
+                .activities-item-cta{ 
                     .cta-button{
                         color: $pink;
                         text-decoration: none;
+                        font-weight: 700;
                     }
                 }
                 .item5{

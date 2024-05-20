@@ -23,6 +23,12 @@
   width: 100%;
   z-index: -1;
 }
+@media (min-width: 768px) {
+  .footer .container {
+    padding-right: 40px;
+    padding-left: 39px;
+  }
+}
 .footer .container .footer__img {
   display: inline-block;
   font-size: 20px;
@@ -52,6 +58,12 @@ header.header__principal .header__list {
   padding: 0px;
   list-style: none;
 }
+@media (min-width: 768px) {
+  header.header__principal {
+    padding-right: 40px;
+    padding-left: 39px;
+  }
+}
 
 .header__container {
   padding-left: 16px;
@@ -71,6 +83,7 @@ header.header__principal .header__list {
 }
 @media (min-width: 768px) {
   .main .main__container__hero {
+    width: 60%;
     height: 300px;
     margin-bottom: 0;
   }
@@ -105,7 +118,7 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__img {
     margin: 0;
-    max-width: 40%;
+    width: 40%;
   }
 }
 .main .main__container__img img.img__hero-tablet {
@@ -144,6 +157,12 @@ header.header__principal .header__list {
   bottom: 0px;
   left: 0px;
 }
+@media (min-width: 768px) {
+  .main .main__container__img .num__hero-1 {
+    bottom: 10%;
+    left: 0px;
+  }
+}
 .main .main__container__img .num__hero-1-title {
   font-size: 14px;
   color: #83869A;
@@ -160,6 +179,12 @@ header.header__principal .header__list {
   top: 0px;
   right: 0px;
 }
+@media (min-width: 768px) {
+  .main .main__container__img .num__hero-2 {
+    top: 140px;
+    right: 15%;
+  }
+}
 .main .main__container__img .num__hero-2-title {
   font-size: 14px;
   color: #83869A;
@@ -168,14 +193,15 @@ header.header__principal .header__list {
   font-size: 32px;
   font-weight: 700;
 }
-.main .main__container .container__responsive {
+.main .main__container .container__responsive-flex {
   margin-bottom: 0px;
 }
 @media (min-width: 768px) {
-  .main .main__container .container__responsive {
+  .main .main__container .container__responsive-flex {
     display: flex;
     height: 400px;
     align-items: center;
+    margin-left: 39px;
   }
 }
 .main .main__container__activities {
@@ -184,6 +210,20 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__activities {
     margin-top: 90px;
+    margin-left: 39px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 32px;
+    align-items: center;
+    justify-content: left;
+  }
+}
+@media (min-width: 768px) {
+  .main .main__container__activities .activities__header {
+    padding-top: 25px;
   }
 }
 .main .main__container__activities .activities__header .activities__h2 {
@@ -192,6 +232,12 @@ header.header__principal .header__list {
   background-image: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
   padding: 24px 29px 32px 28px;
   border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .main .main__container__activities .activities__header .activities__h2 {
+    height: 259px;
+    padding: 56px 21px 139px 32px;
+  }
 }
 .main .main__container__activities .activities-item {
   margin-bottom: 16px;
@@ -203,6 +249,11 @@ header.header__principal .header__list {
   background-color: white;
   border-radius: 10px;
   position: relative;
+}
+@media (min-width: 768px) {
+  .main .main__container__activities .activities-item {
+    width: none;
+  }
 }
 .main .main__container__activities .activities-item-icon {
   margin-bottom: 24px;
@@ -235,6 +286,7 @@ header.header__principal .header__list {
 .main .main__container__activities .activities-item .activities-item-cta .cta-button {
   color: #F74780;
   text-decoration: none;
+  font-weight: 700;
 }
 .main .main__container__activities .activities-item .item5 {
   margin-bottom: 100px;
