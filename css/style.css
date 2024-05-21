@@ -74,24 +74,25 @@ header.header__principal .header__list {
 .main {
   padding-left: 16px;
   padding-right: 16px;
-  padding-bottom: 80px;
-  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+  padding-bottom: 60px;
 }
 .main .main__container__hero {
   height: 100px;
-  margin-bottom: 250px;
+  margin-bottom: 225px;
 }
 @media (min-width: 768px) {
   .main .main__container__hero {
-    width: 60%;
+    max-width: 50%;
     height: 300px;
     margin-bottom: 0;
+    padding-top: 20px;
   }
 }
 .main .main__container__hero .main__h1 {
   font-size: 40px;
   margin-bottom: 26px;
   font-weight: 900;
+  color: #13183F;
 }
 .main .main__container__hero .main__p {
   padding: 0px;
@@ -118,49 +119,44 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__img {
     margin: 0;
-    width: 40%;
+    width: 50%;
   }
 }
-.main .main__container__img img.img__hero-tablet {
-  display: none;
-}
-@media (min-width: 768px) {
-  .main .main__container__img img.img__hero-tablet {
-    display: block;
-    max-width: 100%;
-    margin: 0;
-  }
+.main .main__container__img .img__hero-mobile {
+  max-width: 80%;
 }
 @media (min-width: 768px) {
   .main .main__container__img .img__hero-mobile {
     display: none;
   }
 }
-.main .main__container__img .img-hero {
-  max-width: 80%;
-}
 .main .main__container__img .nums__hero {
   display: inline-block;
+  width: max-content;
   text-align: left;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 1rem;
   position: absolute;
   box-shadow: -2px 22px 44px 7px rgba(189, 174, 174, 0.75);
   -webkit-box-shadow: -2px 22px 44px 7px rgba(189, 174, 174, 0.75);
   -moz-box-shadow: -2px 22px 44px 7px rgba(189, 174, 174, 0.75);
+}
+.main .main__container__img .nums__hero span {
+  display: block;
 }
 .main .main__container__img .num__hero-1 {
   border: 1px solid white;
   max-width: 155px;
   max-height: 100px;
   padding: 16px 45px 16px 20px;
-  bottom: 5%;
-  left: 0%;
+  bottom: 1%;
+  left: 5%;
 }
 @media (min-width: 768px) {
   .main .main__container__img .num__hero-1 {
-    bottom: 5%;
-    left: 0px;
+    position: absolute;
+    bottom: -200px;
+    left: 10%;
     padding: 13px 42px 13px 17px;
   }
 }
@@ -175,7 +171,7 @@ header.header__principal .header__list {
 }
 .main .main__container__img .num__hero-1-number {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 900;
 }
 @media (min-width: 768px) {
   .main .main__container__img .num__hero-1-number {
@@ -188,12 +184,13 @@ header.header__principal .header__list {
   max-height: 100px;
   padding: 16px 20px;
   top: 0%;
-  right: 5%;
+  right: 6%;
 }
 @media (min-width: 768px) {
   .main .main__container__img .num__hero-2 {
-    top: 20%;
-    right: 10%;
+    position: absolute;
+    top: -180px;
+    right: 5%;
     padding: 13px 17px;
   }
 }
@@ -203,7 +200,7 @@ header.header__principal .header__list {
 }
 .main .main__container__img .num__hero-2-number {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 900;
 }
 .main .main__container .container__responsive-flex {
   margin-bottom: 0px;
@@ -221,7 +218,7 @@ header.header__principal .header__list {
 }
 @media (min-width: 768px) {
   .main .main__container__activities {
-    margin-top: 90px;
+    margin-top: 80px;
     margin-left: 39px;
     margin-right: 40px;
     display: grid;
@@ -311,6 +308,16 @@ header.header__principal .header__list {
 .container {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+  body {
+    height: 400px;
+    background-image: url("../../img/hero_img_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 100% 15%;
+    background-size: 350px;
+  }
 }
 
 html * {

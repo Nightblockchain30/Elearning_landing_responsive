@@ -1,0 +1,9 @@
+body{
+    @include breakpoint(tablet){
+    height: 400px;
+    background-image: url("../../img/hero_img_tablet.png");
+    background-repeat: no-repeat;
+    background-position: 100% 15%;
+    background-size: 350px;
+    }
+}
