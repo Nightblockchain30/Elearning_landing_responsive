@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#claves SSH
+claves_ssh_night
+claves_ssh_night.pub
