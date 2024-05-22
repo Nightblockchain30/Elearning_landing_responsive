@@ -22,11 +22,25 @@
   height: 120px;
   width: 100%;
   z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-width: 768px) {
   .footer .container {
     padding-right: 40px;
     padding-left: 39px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer .container {
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 .footer .container .footer__img {
@@ -70,11 +84,41 @@ header.header__principal .header__list {
   padding-right: 16px;
   margin-bottom: 38px;
 }
+@media (min-width: 1024px) {
+  .header__container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .header__container {
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 40px;
+  }
+}
 
 .main {
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 60px;
+}
+.main .main__container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1024px) {
+  .main .main__container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .main__container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
 }
 .main .main__container__hero {
   height: 100px;
@@ -156,7 +200,23 @@ header.header__principal .header__list {
   .main .main__container__img .num__hero-1 {
     position: absolute;
     bottom: -200px;
-    left: 10%;
+    left: 15%;
+    padding: 13px 42px 13px 17px;
+  }
+}
+@media (min-width: 1024px) {
+  .main .main__container__img .num__hero-1 {
+    position: absolute;
+    bottom: -260px;
+    left: 16%;
+    padding: 13px 42px 13px 17px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .main__container__img .num__hero-1 {
+    position: absolute;
+    bottom: -190px;
+    left: 20%;
     padding: 13px 42px 13px 17px;
   }
 }
@@ -194,6 +254,22 @@ header.header__principal .header__list {
     padding: 13px 17px;
   }
 }
+@media (min-width: 1024px) {
+  .main .main__container__img .num__hero-2 {
+    position: absolute;
+    top: -150px;
+    right: 10%;
+    padding: 13px 17px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .main__container__img .num__hero-2 {
+    position: absolute;
+    top: -120px;
+    right: -10%;
+    padding: 13px 17px;
+  }
+}
 .main .main__container__img .num__hero-2-title {
   font-size: 14px;
   color: #83869A;
@@ -213,6 +289,17 @@ header.header__principal .header__list {
     margin-left: 39px;
   }
 }
+@media (min-width: 1024px) {
+  .main .main__container .container__responsive-flex {
+    margin-bottom: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .main .main__container .container__responsive-flex {
+    margin-left: 0;
+    margin-bottom: 15%;
+  }
+}
 .main .main__container__activities {
   margin-top: 20%;
 }
@@ -224,6 +311,20 @@ header.header__principal .header__list {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 32px;
+    align-items: center;
+    justify-content: left;
+  }
+}
+@media (min-width: 1200px) {
+  .main .main__container__activities {
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 10px;
     row-gap: 32px;
     align-items: center;
@@ -246,6 +347,7 @@ header.header__principal .header__list {
   .main .main__container__activities .activities__header .activities__h2 {
     height: 259px;
     padding: 56px 21px 139px 32px;
+    margin-bottom: 0px;
   }
 }
 .main .main__container__activities .activities-item {
@@ -261,6 +363,7 @@ header.header__principal .header__list {
 @media (min-width: 768px) {
   .main .main__container__activities .activities-item {
     width: none;
+    border-radius: 10px;
   }
 }
 @media (min-width: 768px) {
@@ -317,6 +420,24 @@ header.header__principal .header__list {
     background-repeat: no-repeat;
     background-position: 100% 15%;
     background-size: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    height: 400px;
+    background-image: url("../../img/hero_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 110% 10%;
+    background-size: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    height: 400px;
+    background-image: url("../../img/hero_desktop.png");
+    background-repeat: no-repeat;
+    background-position: 104% 0%;
+    background-size: 520px;
   }
 }
 

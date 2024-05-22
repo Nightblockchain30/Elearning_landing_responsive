@@ -6,4 +6,22 @@ body{
     background-position: 100% 15%;
     background-size: 350px;
     }
+
+    @include breakpoint(tablethorizontal){
+        height: 400px;
+        background-image: url("../../img/hero_desktop.png");
+        background-repeat: no-repeat;
+        background-position: 110% 10%;
+        background-size: 500px;
+    }
+
+    @include breakpoint(desktop){
+        height: 400px;
+        background-image: url("../../img/hero_desktop.png");
+        background-repeat: no-repeat;
+        background-position: 104% 0%;
+        background-size: 520px;
+    }
+
+
 }
